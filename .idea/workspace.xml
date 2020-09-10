@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +46,67 @@
       <option name="presentableId" value="Default" />
       <updated>1599760193706</updated>
       <workItem from="1599760194814" duration="1641000" />
+      <workItem from="1599761901360" duration="583000" />
     </task>
+    <task id="LOCAL-00001" summary="initial Commit">
+      <created>1599761957716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599761957716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial Commit">
+      <created>1599761968625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599761968625</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial Commit">
+      <created>1599761980463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599761980463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599760298806">
+    <state x="480" y="153" key="#Web_Browsers" timestamp="1599762255084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599760298806" />
-    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599761795010">
+    <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599762255084" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599761978824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761795010" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599761978824" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599762283738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599762283738" />
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599762349524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762349524" />
     <state x="497" y="61" key="Github.UntrackedFilesDialog" timestamp="1599761292846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -60,14 +115,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599760210616" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1599761818921">
+    <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599761818921" />
+    <state x="482" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762273470" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1599762180702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599762180702" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599761350802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599761350802" />
+    <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762324788" />
+    <state x="480" y="258" key="git4idea.ui.GitResetDialog" timestamp="1599762204671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="480" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762204671" />
     <state x="477" y="49" key="svn.repositoryBrowser" timestamp="1599760767033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
