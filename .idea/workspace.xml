@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hKWJhr0fKQrT964sB3pb3d1SpU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="" />
+      <created>1599760193706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599760193706</updated>
+      <workItem from="1599760194814" duration="1641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599760298806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599760298806" />
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599761795010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761795010" />
+    <state x="497" y="61" key="Github.UntrackedFilesDialog" timestamp="1599761292846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599760210616">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599760210616" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1599761818921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599761818921" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599761350802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599761350802" />
+    <state x="477" y="49" key="svn.repositoryBrowser" timestamp="1599760767033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="49" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1599760767033" />
+  </component>
+</project>
