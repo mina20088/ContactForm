@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +32,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,6 +50,7 @@
       <updated>1599760193706</updated>
       <workItem from="1599760194814" duration="1641000" />
       <workItem from="1599761901360" duration="583000" />
+      <workItem from="1599762502570" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -69,7 +73,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599761980463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial Commit">
+      <created>1599762600726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599762600726</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial Commit">
+      <created>1599762609236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599762609236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial Commit">
+      <created>1599762615417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599762615417</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added the Header.php to make file Header and the components folder to contain index Data">
+      <created>1599762760687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599762760687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,48 +117,50 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial Commit" />
+    <MESSAGE value="added the Header.php to make file Header and the components folder to contain index Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the Header.php to make file Header and the components folder to contain index Data" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="153" key="#Web_Browsers" timestamp="1599762255084">
+    <state x="480" y="153" key="#Web_Browsers" timestamp="1599763055464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599762255084" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599761978824">
+    <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599763055464" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599762759216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599761978824" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599762283738">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599762759216" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599763152642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599762283738" />
-    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599762349524">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599763152642" />
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599762530753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762349524" />
+    <state x="553" y="261" width="259" height="277" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762530753" />
     <state x="497" y="61" key="Github.UntrackedFilesDialog" timestamp="1599761292846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599760210616">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599762687902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599760210616" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762687902" />
     <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762273470" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1599762180702">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1599763153635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599762180702" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599761350802">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599763153635" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599762769023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599761350802" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599762769023" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

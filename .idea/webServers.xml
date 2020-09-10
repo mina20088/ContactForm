@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dc0adad9-9ed5-4878-973e-ba898bdc6686" name="mina" url="http://localhost\Projects\ContactForm">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\Projects\ContactForm" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
