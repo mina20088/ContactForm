@@ -3,6 +3,6 @@ window.intlTelInput(input, {
     allowDropdown : true,
     formatOnDisplay:true,
     separateDialCode: true,
-    utilsScript: "utils.js"
+    utilsScript: "www/js/utils.js"
 });
 

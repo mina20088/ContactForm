@@ -9,6 +9,8 @@
     <!-- Normal styleSheet-->
     <link rel="stylesheet" href="www/CSS/intlTelInput.css">
     <link rel="stylesheet" href="www/CSS/index.css">
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +19,7 @@
         <?php include 'Components/Header.php'?>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid mainContent">
     <div class="row">
         <?php include "Components/Form.php"?>
         <?php include "Components/Photo.php"?>

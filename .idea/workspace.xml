@@ -11,12 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Images/ContactMe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/Images/hand-drawn-contact-information-background-template_23-2148191530.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Photo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/CSS/intlTelInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/CSS/intlTelInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/JS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/JS/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,7 +85,7 @@
       <workItem from="1599761901360" duration="583000" />
       <workItem from="1599762502570" duration="8307000" />
       <workItem from="1599824406551" duration="2293000" />
-      <workItem from="1599842974237" duration="2317000" />
+      <workItem from="1599842974237" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -167,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599786702808</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added the contact me photo to Header.php and include it to the index.php">
+      <created>1599845597068</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599845597068</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +204,8 @@
     <MESSAGE value="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder" />
     <MESSAGE value="background Folder Created By Default" />
     <MESSAGE value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
-    <option name="LAST_COMMIT_MESSAGE" value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
+    <MESSAGE value="added the contact me photo to Header.php and include it to the index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the contact me photo to Header.php and include it to the index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -204,14 +216,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599763055464" />
-    <state x="29" y="0" key="CommitChangelistDialog2" timestamp="1599786701427">
+    <state x="29" y="0" key="CommitChangelistDialog2" timestamp="1599845593980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="29" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599786701427" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599763152642">
+    <state x="29" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599845593980" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599763152642" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599846492423" />
     <state x="553" y="261" width="259" height="277" key="Github.ShareDialog" timestamp="1599762530753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,14 +240,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762273470" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1599763153635">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1599846679293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599763153635" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599786708853">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599846679293" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599845599561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599786708853" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599845599561" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
