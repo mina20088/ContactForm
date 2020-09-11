@@ -10,23 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Photo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/CSS/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/CSS/intlTelInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/Images/flags@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/JS/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/JS/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ContactForm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ContactForm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +72,7 @@
       <updated>1599760193706</updated>
       <workItem from="1599760194814" duration="1641000" />
       <workItem from="1599761901360" duration="583000" />
-      <workItem from="1599762502570" duration="7307000" />
+      <workItem from="1599762502570" duration="7801000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -146,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599763440889</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder">
+      <created>1599786416600</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599786416600</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +160,8 @@
     <MESSAGE value="initial Commit" />
     <MESSAGE value="added the Header.php to make file Header and the components folder to contain index Data" />
     <MESSAGE value="include the Components Header.php file to the index.php file" />
-    <option name="LAST_COMMIT_MESSAGE" value="include the Components Header.php file to the index.php file" />
+    <MESSAGE value="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -180,10 +172,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599763055464" />
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1599763439498">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1599786414093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599763439498" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599786414093" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599763152642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
