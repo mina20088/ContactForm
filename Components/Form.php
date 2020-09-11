@@ -11,7 +11,7 @@
         <div class="form-group">
             <label for="telephone">Telephone</label>
             <br>
-            <input type="tel" class="form-control" name="telephone" placeholder="Telephone" id="telephone">
+            <input type="text" class="form-control" name="telephone" placeholder="Telephone" id="telephone">
         </div>
         <div class="form-group">
 
