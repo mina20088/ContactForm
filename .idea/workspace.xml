@@ -11,7 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/CSS/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/CSS/intlTelInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/Images/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/Images/flags@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/JS/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput-jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/JS/intlTelInput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/JS/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ContactForm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ContactForm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Header.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +35,48 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hKWJhr0fKQrT964sB3pb3d1SpU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projects\ContactForm\www\JS" />
+      <recent name="C:\xampp\htdocs\Projects\ContactForm\www\Images" />
+      <recent name="C:\xampp\htdocs\Projects\ContactForm\www\CSS" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,7 +88,7 @@
       <updated>1599760193706</updated>
       <workItem from="1599760194814" duration="1641000" />
       <workItem from="1599761901360" duration="583000" />
-      <workItem from="1599762502570" duration="644000" />
+      <workItem from="1599762502570" duration="7307000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -101,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599762760687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="include the Components Header.php file to the index.php file">
+      <created>1599763440889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599763440889</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,19 +165,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial Commit" />
     <MESSAGE value="added the Header.php to make file Header and the components folder to contain index Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the Header.php to make file Header and the components folder to contain index Data" />
+    <MESSAGE value="include the Components Header.php file to the index.php file" />
+    <option name="LAST_COMMIT_MESSAGE" value="include the Components Header.php file to the index.php file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="6" key="#PHP" timestamp="1599763202992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="6" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1599763202992" />
     <state x="480" y="153" key="#Web_Browsers" timestamp="1599763055464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599763055464" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599762759216">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1599763439498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599762759216" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599763439498" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599763152642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -145,10 +196,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599762687902">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599764228033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762687902" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599764228033" />
     <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -157,10 +208,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599763153635" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599762769023">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599763466973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599762769023" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599763466973" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
