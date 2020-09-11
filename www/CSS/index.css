@@ -2,11 +2,47 @@
     margin-left: 26rem ;
 }
 .mainContent{
-    margin-top: 2rem;
+    margin-top: 0.8rem;
 }
 form{
-    margin-top: 5.3rem;
+    margin-top: 0rem;
 }
 .FormHeader{
     font-family: 'Grandstander', cursive;
+}
+
+.contactmeImage{
+    height: 29rem;
+    width: 100%;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) {
+    body{
+        margin-top: 3rem;
+    }
+    .contactmeImg{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .FormHeader{
+        font-family: 'Grandstander', cursive;
+        font-size: 5vw;
+    }
+    .contactmeImage{
+        display: none;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+    .contactmeImg {
+        margin-left: 6rem;
+        width: 70%;
+    }
+    .FormHeader {
+        font-family: 'Grandstander', cursive;
+        font-size: 3.5vw;
+    }
+    .contactmeImage {
+        max-width: 100%;
+    }
 }
