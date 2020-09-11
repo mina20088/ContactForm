@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="" />
+    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Components/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/Images/ContactMe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/CSS/intlTelInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/CSS/intlTelInput.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Projects\ContactForm\www\JS" />
       <recent name="C:\xampp\htdocs\Projects\ContactForm\www\Images" />
+      <recent name="C:\xampp\htdocs\Projects\ContactForm\www\JS" />
       <recent name="C:\xampp\htdocs\Projects\ContactForm\www\CSS" />
     </key>
   </component>
@@ -72,7 +79,9 @@
       <updated>1599760193706</updated>
       <workItem from="1599760194814" duration="1641000" />
       <workItem from="1599761901360" duration="583000" />
-      <workItem from="1599762502570" duration="7801000" />
+      <workItem from="1599762502570" duration="8307000" />
+      <workItem from="1599824406551" duration="2293000" />
+      <workItem from="1599842974237" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -137,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599786416600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="background Folder Created By Default">
+      <created>1599786455307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599786455307</updated>
+    </task>
+    <task id="LOCAL-00011" summary="background Folder Created By Default">
+      <created>1599786466491</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599786466491</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input">
+      <created>1599786702808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599786702808</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +191,9 @@
     <MESSAGE value="added the Header.php to make file Header and the components folder to contain index Data" />
     <MESSAGE value="include the Components Header.php file to the index.php file" />
     <MESSAGE value="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the css and js plugin intl-tel-input for including a list of countries codes also added the flags.png to get flags&#10;added the index.js file to the html file included the bootstrap and the jquery to the project and popper &#10;make the form firstname last name and telephone and added the Form.php and Photo.php to the Components folder" />
+    <MESSAGE value="background Folder Created By Default" />
+    <MESSAGE value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -172,10 +204,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599763055464" />
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1599786414093">
+    <state x="29" y="0" key="CommitChangelistDialog2" timestamp="1599786701427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599786414093" />
+    <state x="29" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599786701427" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599763152642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,10 +220,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599764228033">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599844075773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599764228033" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599844075773" />
     <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -200,10 +232,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599763153635" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599763466973">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599786708853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599763466973" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599786708853" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
