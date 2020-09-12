@@ -79,6 +79,8 @@
       <workItem from="1599824406551" duration="2293000" />
       <workItem from="1599842974237" duration="20366000" />
       <workItem from="1599907593341" duration="1832000" />
+      <workItem from="1599917285690" duration="5653000" />
+      <workItem from="1599934579462" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599873838400</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)">
+      <created>1599917395907</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599917395908</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +231,8 @@
     <MESSAGE value="add content to the Photo.php contantme.jbeg &#10;at the Header.php we added the contactmeImg class to style the image&#10;at the Form.php added the header for the form &#10;at index.js we changed the utilsScript: &quot;www/js/utils.js&quot;&#10;at index.php add the link for the goolge fonts" />
     <MESSAGE value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
     <MESSAGE value="make changes to the index.css to make sure that the website is responsive in all cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="make changes to the index.css to make sure that the website is responsive in all cases" />
+    <MESSAGE value="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -233,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1599873836131">
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1599917391190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599873836131" />
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599917391190" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -261,10 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599846679293" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599873854326">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599917405789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599873854326" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599917405789" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

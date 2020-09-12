@@ -1,6 +1,6 @@
 .contactmeImg{
-    margin-left: 21rem;
-    width: 50%;
+    margin-left: 25rem;
+    width: 36%;
 }
 .mainContent{
     margin-top: 0.8rem;
@@ -15,9 +15,85 @@ form{
 .contactmeImage{
     margin-left: 0rem;
     width: 100%;
+    height: 28rem;
+}
+@media only screen and (max-width: 1199.98px) {
+    .contactmeImg{
+        margin-left: 15rem;
+        width: 50%;
+    }
+    .mainContent{
+        margin-top: 0.8rem;
+    }
+    form{
+        margin-top: 0rem;
+    }
+    .FormHeader{
+        font-family: 'Grandstander', cursive;
+    }
+
+    .contactmeImage{
+        margin-left: 0rem;
+        width: 100%;
+        height: 30rem;
+    }
+}
+/*Medium devices (tablets, less than 992px)*/
+@media only screen and (max-width: 991.98px) {
+    .contactmeImg{
+        margin-left: 11rem;
+        width: 50%;
+    }
+    .mainContent{
+        margin-top: 2rem;
+    }
+    form{
+        margin-top: 0rem;
+    }
+    .FormHeader{
+        font-family: 'Grandstander', cursive;
+        font-size: 2.3vw;
+        text-align: center;
+    }
+
+    .contactmeImage{
+        margin-left: 0rem;
+        width: 100%;
+        height: 26rem;
+    }
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media only screen and (max-width: 767.98px) {
+    body{
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+    }
+    .contactmeImg{
+        margin-left: 9rem;
+        width: 50%;
+    }
+    .mainContent{
+        margin-top: 0.8rem;
+    }
+    form{
+        margin-top: 0rem;
+    }
+    .FormHeader{
+        font-family: 'Grandstander', cursive;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .contactmeImage{
+        display: none;
+    }
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media only screen and (max-width: 575.98px) {
+    body{
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+    }
     .contactmeImg{
         margin-left: 0;
         width: 100%;
@@ -38,7 +114,5 @@ form{
         display: none;
     }
 }
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    
-}
+/*Large devices (desktops, less than 1200px)*/
+
