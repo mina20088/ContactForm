@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Process/ContactMeProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/Process/ContactMeProcess.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="1a38fdff-f66e-42b4-9a10-24db1fe52c20" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="C:/xampp/htdocs/Projects/ContactForm" />
+          <mapping local-root="$PROJECT_DIR$" remote-root="C:/xampp/htdocs/Projects/ContactForm/www" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hKWJhr0fKQrT964sB3pb3d1SpU" />
@@ -80,7 +92,7 @@
       <workItem from="1599842974237" duration="20366000" />
       <workItem from="1599907593341" duration="1832000" />
       <workItem from="1599917285690" duration="5653000" />
-      <workItem from="1599934579462" duration="2390000" />
+      <workItem from="1599934579462" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -201,7 +213,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599917395908</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="make changes at the index.css to make website responsive &#10;// Extra small devices (portrait phones, less than 576px)&#10;// No media query for `xs` since this is the default in Bootstrap&#10;&#10;// Small devices (landscape phones, 576px and up)&#10;@media (min-width: 576px) { ... }&#10;&#10;// Medium devices (tablets, 768px and up)&#10;@media (min-width: 768px) { ... }&#10;&#10;// Large devices (desktops, 992px and up)&#10;@media (min-width: 992px) { ... }&#10;&#10;// Extra large devices (large desktops, 1200px and up)&#10;@media (min-width: 1200px) { ... }">
+      <created>1599938521460</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599938521461</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create the ContactMeProcess.php file to Process The Get And Post HTTP Request of the form">
+      <created>1599938813369</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599938813369</updated>
+    </task>
+    <task id="LOCAL-00020" summary="@Form.php Added this line to process the form at the action &quot;Process/ContactMeProcess.php&quot;">
+      <created>1599939061776</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599939061776</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +265,10 @@
     <MESSAGE value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
     <MESSAGE value="make changes to the index.css to make sure that the website is responsive in all cases" />
     <MESSAGE value="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)" />
+    <MESSAGE value="make changes at the index.css to make website responsive &#10;// Extra small devices (portrait phones, less than 576px)&#10;// No media query for `xs` since this is the default in Bootstrap&#10;&#10;// Small devices (landscape phones, 576px and up)&#10;@media (min-width: 576px) { ... }&#10;&#10;// Medium devices (tablets, 768px and up)&#10;@media (min-width: 768px) { ... }&#10;&#10;// Large devices (desktops, 992px and up)&#10;@media (min-width: 992px) { ... }&#10;&#10;// Extra large devices (large desktops, 1200px and up)&#10;@media (min-width: 1200px) { ... }" />
+    <MESSAGE value="Create the ContactMeProcess.php file to Process The Get And Post HTTP Request of the form" />
+    <MESSAGE value="@Form.php Added this line to process the form at the action &quot;Process/ContactMeProcess.php&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Form.php Added this line to process the form at the action &quot;Process/ContactMeProcess.php&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -243,10 +279,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1599917391190">
+    <state x="77" y="0" key="CommitChangelistDialog2" timestamp="1599939059474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599917391190" />
+    <state x="77" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599939059474" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,10 +295,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599844075773">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1599939754220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599844075773" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599939754220" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1599939754219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599939754219" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1599939754218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599939754218" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1599939754219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599939754219" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599939754222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599939754222" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1599939754221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599939754221" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1599939754221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599939754221" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1599939754222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599939754222" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1599939754225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599939754225" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1599939754223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599939754223" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1599939754222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599939754222" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1599939754224">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599939754224" />
+    <state x="462" y="86" key="NewPhpClassDialog" timestamp="1599938722973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1599938722973" />
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599938750920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599938750920" />
     <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,10 +359,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599846679293" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599917405789">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599938819241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599917405789" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599938819241" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -291,5 +379,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="564" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1599862737671" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Process/ContactMeProcess.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
