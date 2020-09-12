@@ -11,12 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/Images/Contactme.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Photo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/CSS/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/Images/hand-drawn-contact-information-background-template_23-2148191530.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <workItem from="1599761901360" duration="583000" />
       <workItem from="1599762502570" duration="8307000" />
       <workItem from="1599824406551" duration="2293000" />
-      <workItem from="1599842974237" duration="15486000" />
+      <workItem from="1599842974237" duration="19647000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599851912790</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px">
+      <created>1599864418233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599864418233</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +212,8 @@
     <MESSAGE value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
     <MESSAGE value="added the contact me photo to Header.php and include it to the index.php" />
     <MESSAGE value="add content to the Photo.php contantme.jbeg &#10;at the Header.php we added the contactmeImg class to style the image&#10;at the Form.php added the header for the form &#10;at index.js we changed the utilsScript: &quot;www/js/utils.js&quot;&#10;at index.php add the link for the goolge fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add content to the Photo.php contantme.jbeg &#10;at the Header.php we added the contactmeImg class to style the image&#10;at the Form.php added the header for the form &#10;at index.js we changed the utilsScript: &quot;www/js/utils.js&quot;&#10;at index.php add the link for the goolge fonts" />
+    <MESSAGE value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
+    <option name="LAST_COMMIT_MESSAGE" value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -220,10 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1599851910615">
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1599864415879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599851910615" />
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599864415879" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -248,10 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599846679293" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599851919071">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599864446126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599851919071" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599864446126" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
