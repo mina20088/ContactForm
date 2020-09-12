@@ -12,6 +12,7 @@
         <div class="input-group">
             <label for="telephone">Telephone</label>
             <br>
+            <input id="hidden" type="hidden" name="phone-full">
             <input type="text" class="form-control" name="telephone" placeholder="Telephone" id="telephone">
         </div>
         <div class="form-group">
