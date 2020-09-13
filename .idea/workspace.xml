@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/Confirmation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Process/ContactMeProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/Process/ContactMeProcess.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1599907593341" duration="1832000" />
       <workItem from="1599917285690" duration="5653000" />
       <workItem from="1599934579462" duration="14067000" />
-      <workItem from="1600003088389" duration="5389000" />
+      <workItem from="1600003088389" duration="7092000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -285,11 +282,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599953789351</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Created the Confirmation.php file to make sure that the data is added to the database&#10;Created the Error.php to report errors in the application&#10;@ContactMeProcess.php added a header to redirict to the Confirmation.php">
+      <created>1600010769553</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600010769553</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -326,7 +340,8 @@
     <MESSAGE value="@ ContactMeProcess.php added include SANITIZE.php to sanitize string" />
     <MESSAGE value="@ SANITIZE.php added the function SanitizeString to make sanitization" />
     <MESSAGE value="wrokspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrokspace.xml" />
+    <MESSAGE value="Created the Confirmation.php file to make sure that the data is added to the database&#10;Created the Error.php to report errors in the application&#10;@ContactMeProcess.php added a header to redirict to the Confirmation.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the Confirmation.php file to make sure that the data is added to the database&#10;Created the Error.php to report errors in the application&#10;@ContactMeProcess.php added a header to redirict to the Confirmation.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -337,14 +352,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1599953787351">
+    <state x="437" y="0" key="CommitChangelistDialog2" timestamp="1600010767225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599953787351" />
+    <state x="437" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600010767225" />
     <state width="388" height="466" key="DebuggerActiveHint" timestamp="1600006251117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="388" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600006251117" />
+    <state x="258" y="54" key="DiffContextDialog" timestamp="1600010673664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="258" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600010673664" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -433,6 +452,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762204671" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600011443030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600011443030" />
     <state x="477" y="49" key="svn.repositoryBrowser" timestamp="1599760767033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
