@@ -14,6 +14,7 @@
     <title>Document</title>
 </head>
 <body>
+</body>
 <div class="container-fluid">
     <div class="row">
         <?php include 'Components/Header.php'?>
