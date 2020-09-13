@@ -1,6 +1,6 @@
 <?php
 function CheckStringValue($String){
-    $stringPattern = '/(\w+\s)/';
+    $stringPattern = "/[a-zA-Z](\w*)(\s)/";
     $Status = false;
     if(preg_match($stringPattern,$String)){
         $Status = true;
@@ -9,5 +9,3 @@ function CheckStringValue($String){
     }
     return $Status;
 }
-
-echo CheckStringValue('1212ee');
