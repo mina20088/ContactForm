@@ -1,5 +1,6 @@
 <?php
-include "../Global Functions/SANITIZE.php";
+include "../Global Functions/Sanitize.php";
+include "../Global Functions/Validate.php";
 if(isset($_POST['Submit'])){
     $FullName = SanitizeString([$_POST['FullName']],[FILTER_SANITIZE_SPECIAL_CHARS,FILTER_SANITIZE_STRING],null);
     $Email = SanitizeString([$_POST['Email']],[FILTER_SANITIZE_EMAIL],null);
@@ -21,7 +22,6 @@ if(isset($_POST['Submit'])){
     if($QuaryString){
         header("location:../index.php?".$QuaryString);
     }else{
-
         header("location:../Components/Confirmation.php?Message=The Data Has Been Added To Our Database Successfully And Anseer Will Be Sent Soon");
     }
 }
