@@ -18,7 +18,9 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
             <label for="Full Name">Full Name</label>
             <input type="text" class="form-control" name="FullName" placeholder="Full Name" id="Full Name" value="<?php echo $firstname?>">
             <?php if (isset($_GET['Error1'])):?>
-                <span style="color: red"><?php echo '*'.$_GET['Error1'] ?></span>
+                <span style="color: red"><?php echo '*'.$_GET['Error1']?></span>
+            <?php elseif (isset($_GET['Err'])):?>
+                <span style="color: red"><?php echo '*'.$_GET['Err']?></span>
             <?php endif;?>
         </div>
         <div class="form-group">

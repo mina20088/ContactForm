@@ -24,7 +24,7 @@ if(isset($_POST['Submit'])){
     }else{
 
         if(!CheckStringValue($FullName)) {
-            $QueryString .= "Err=please use string characters only in first name";
+            $QueryString .= "Err=please use string characters only in first name&"."firstname="."".'&email='.$Email.'&telephone='.$Telephone.'&message='.$Message;
         }
         if($QueryString){
             header("location:../index.php?".$QueryString);

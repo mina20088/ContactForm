@@ -12,6 +12,9 @@ if(isset($_GET['Error3'])){
 if(isset($_GET['Error4'])){
     array_push($errArray,$_GET['Error4']);
 }
+if(isset($_GET['Err'])){
+    array_push($errArray,$_GET['Err']);
+}
 ?>
 <div class="container">
     <div class="row">

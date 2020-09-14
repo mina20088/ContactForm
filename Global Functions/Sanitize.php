@@ -1,4 +1,5 @@
 <?php
+/*This Function is used to sanitize the input*/
 function SanitizeString($String,$Sanitize_filters_ID,$Flags){
     $FilteredString = "";
     if(isset($String)){
