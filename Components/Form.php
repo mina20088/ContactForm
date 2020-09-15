@@ -10,6 +10,7 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
     $message = $_GET['message'];
 }
 ?>
+
 <?php include "Components/Error.php"?>
 <div class="col-sm-12 col-md-5 col-lg-6">
     <form action="Process/ContactMeProcess.php" method="post">
@@ -27,8 +28,9 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
             <label for="Email">Email</label>
             <input type="text" class="form-control" name="Email" placeholder="Email" id="Email" value="<?php echo $email?>">
             <?php if (isset($_GET['Error2'])):?>
-                <span style="color: red"><?php echo '*'.$_GET['Error2'] ?></span>
+                <span style="color: red"><?php echo '*'.$_GET['Error2']?></span>
             <?php endif;?>
+
         </div>
         <div class="input-group">
             <label for="telephone">Telephone</label>
@@ -36,7 +38,7 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
             <input id="hidden" type="hidden" name="phone-full">
             <input type="text" class="form-control" name="telephone" placeholder="Telephone" id="telephone" value="<?php echo $telephone?>">
             <?php if (isset($_GET['Error3'])):?>
-                <span style="color: red"><?php echo '*'.$_GET['Error3'] ?></span>
+                <span style="color: red"><?php echo '*'.$_GET['Error3']?></span>
             <?php endif;?>
         </div>
         <div class="form-group">
@@ -44,7 +46,7 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
             <br>
             <textarea type="text" class="form-control" name="message" placeholder="Enter Your Messsage..." id="messagse"><?php echo $message?></textarea>
             <?php if (isset($_GET['Error4'])):?>
-                <span style="color: red"><?php echo '*'.$_GET['Error4'] ?></span>
+                <span style="color: red"><?php echo '*'.$_GET['Error4']?></span>
             <?php endif;?>
         </div>
         <div class="form-group">

@@ -24,7 +24,10 @@ if(isset($_POST['Submit'])){
     }else{
 
         if(!CheckStringValue($FullName)) {
-            $QueryString .= "Err=please use string characters only in first name&"."firstname="."".'&email='.$Email.'&telephone='.$Telephone.'&message='.$Message;
+            $QueryString .= "Error1=please use string characters only in first name&"."firstname="."".'&email='.$Email.'&telephone='.$Telephone.'&message='.$Message;
+        }
+        if(!filter_var($Email,FILTER_VALIDATE_EMAIL)){
+            $QueryString .= "Error2=Please Enter A Valid Email"."&firstname=".$FullName."&email=".$Email."&telephone=".$Telephone."&message=".$Message;
         }
         if($QueryString){
             header("location:../index.php?".$QueryString);
