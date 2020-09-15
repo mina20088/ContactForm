@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global Functions/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Global Functions/Validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Process/ContactMeProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/Process/ContactMeProcess.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="1a38fdff-f66e-42b4-9a10-24db1fe52c20" name="localhost" use_path_mappings="true">
@@ -103,7 +103,7 @@
       <workItem from="1600108296426" duration="6244000" />
       <workItem from="1600126901060" duration="8610000" />
       <workItem from="1600171550966" duration="8014000" />
-      <workItem from="1600182700791" duration="4732000" />
+      <workItem from="1600182700791" duration="14943000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600171659371</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="@ Validate.php addw the function&#10;1-ValidateEmail: to validate Email&#10;2-ValidatePhoneNumber : to validate Phone Number&#10;3-ValidatePhoneNumberLenght : to validate the lenght of the phone number&#10;@ ContactMeProcess.php adde&#10;        if(!ValidateString($FullName)) {&#10;            $QueryString .= &quot;Error1=please use string characters only in first name&amp;&quot;.&quot;firstname=&quot;.&quot;&quot;.'&amp;email='.$Email.'&amp;telephone='.$Telephone.'&amp;message='.$Message;&#10;        }&#10;         if(filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;             if(!ValidateEmail($Email)){&#10;                 $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;             }&#10;        if(!ValidatePhoneNumber($Telephone)){&#10;            $QueryString .= &quot;Error3=Please Enter A valid Phone Number,Numbers Only Allowed&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            if(!ValidatePhoneNumberLenght($Telephone)){&#10;                $QueryString .= &quot;Error5=phone Number Length Allowed Between [1-15] Digit&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            }">
+      <created>1600189529042</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1600189529042</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +408,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="change the telephone input type to text&#10;https://github.com/jackocnr/intl-tel-input" />
     <MESSAGE value="added the contact me photo to Header.php and include it to the index.php" />
     <MESSAGE value="add content to the Photo.php contantme.jbeg &#10;at the Header.php we added the contactmeImg class to style the image&#10;at the Form.php added the header for the form &#10;at index.js we changed the utilsScript: &quot;www/js/utils.js&quot;&#10;at index.php add the link for the goolge fonts" />
     <MESSAGE value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
@@ -426,7 +432,8 @@
     <MESSAGE value="@Error.php added the the line of code `if(isset($_GET['Err'])){&#10;                                            array_push($errArray,$_GET['Err']);&#10;                                        }`&#10;to make show the error if the first name is not a string &#10;@Form.php added this line of code to make sure that the error message is shown &#10;`            &lt;?php elseif (isset($_GET['Err'])):?&gt;&#10;                 &lt;span style=&quot;color: red&quot;&gt;&lt;?php echo '*'.$_GET['Err']?&gt;&lt;/span&gt;&#10;             &lt;?php endif;?&gt;&#10;            `&#10;@Function.php added the function getError() to add the error message under the input&#10;@ Sanitize.php added added a comment to define what the reasn for creation of the SanitizeString function" />
     <MESSAGE value="@ContactMeProcess.php added line `        if(!filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;                                              $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;                                          }`&#10; to validate Email" />
     <MESSAGE value="removed the Functions.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed the Functions.php" />
+    <MESSAGE value="@ Validate.php addw the function&#10;1-ValidateEmail: to validate Email&#10;2-ValidatePhoneNumber : to validate Phone Number&#10;3-ValidatePhoneNumberLenght : to validate the lenght of the phone number&#10;@ ContactMeProcess.php adde&#10;        if(!ValidateString($FullName)) {&#10;            $QueryString .= &quot;Error1=please use string characters only in first name&amp;&quot;.&quot;firstname=&quot;.&quot;&quot;.'&amp;email='.$Email.'&amp;telephone='.$Telephone.'&amp;message='.$Message;&#10;        }&#10;         if(filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;             if(!ValidateEmail($Email)){&#10;                 $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;             }&#10;        if(!ValidatePhoneNumber($Telephone)){&#10;            $QueryString .= &quot;Error3=Please Enter A valid Phone Number,Numbers Only Allowed&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            if(!ValidatePhoneNumberLenght($Telephone)){&#10;                $QueryString .= &quot;Error5=phone Number Length Allowed Between [1-15] Digit&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            }" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ Validate.php addw the function&#10;1-ValidateEmail: to validate Email&#10;2-ValidatePhoneNumber : to validate Phone Number&#10;3-ValidatePhoneNumberLenght : to validate the lenght of the phone number&#10;@ ContactMeProcess.php adde&#10;        if(!ValidateString($FullName)) {&#10;            $QueryString .= &quot;Error1=please use string characters only in first name&amp;&quot;.&quot;firstname=&quot;.&quot;&quot;.'&amp;email='.$Email.'&amp;telephone='.$Telephone.'&amp;message='.$Message;&#10;        }&#10;         if(filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;             if(!ValidateEmail($Email)){&#10;                 $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;             }&#10;        if(!ValidatePhoneNumber($Telephone)){&#10;            $QueryString .= &quot;Error3=Please Enter A valid Phone Number,Numbers Only Allowed&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            if(!ValidatePhoneNumberLenght($Telephone)){&#10;                $QueryString .= &quot;Error5=phone Number Length Allowed Between [1-15] Digit&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            }" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -437,18 +444,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600171656262">
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600189526495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600171656262" />
-    <state width="388" height="466" key="DebuggerActiveHint" timestamp="1600006251117">
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600189526495" />
+    <state width="411" height="466" key="DebuggerActiveHint" timestamp="1600203402604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="388" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600006251117" />
-    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog" timestamp="1600135463348">
+    <state width="411" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600203402604" />
+    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog" timestamp="1600189513808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600135463348" />
+    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600189513808" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -461,54 +468,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1600189148750">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1600203589526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600189148750" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1600189148749">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1600203589525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600189148749" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1600189148749">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589525" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1600203589524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600189148749" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1600189148749">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589524" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1600203589525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600189148749" />
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1600189148750">
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589525" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1600203589526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600189148750" />
-    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1600189148750">
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1600203589526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600189148750" />
-    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1600189148750">
+    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1600203589526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600189148750" />
-    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1600189148750">
+    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1600203589526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600189148750" />
-    <state width="1323" height="212" key="GridCell.Tab.2.bottom" timestamp="1600189148753">
+    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
+    <state width="1323" height="212" key="GridCell.Tab.2.bottom" timestamp="1600203589527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600189148753" />
-    <state width="1323" height="212" key="GridCell.Tab.2.center" timestamp="1600189148751">
+    <state width="1323" height="212" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
+    <state width="1323" height="212" key="GridCell.Tab.2.center" timestamp="1600203589527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1600189148751" />
-    <state width="1323" height="212" key="GridCell.Tab.2.left" timestamp="1600189148751">
+    <state width="1323" height="212" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
+    <state width="1323" height="212" key="GridCell.Tab.2.left" timestamp="1600203589527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1600189148751" />
-    <state width="1323" height="212" key="GridCell.Tab.2.right" timestamp="1600189148752">
+    <state width="1323" height="212" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
+    <state width="1323" height="212" key="GridCell.Tab.2.right" timestamp="1600203589527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1600189148752" />
+    <state width="1323" height="212" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
     <state x="462" y="86" key="NewPhpClassDialog" timestamp="1600115244725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -525,10 +532,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600177368602" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600135486034">
+    <state x="433" y="45" key="VCS.ChangeListViewerDialog" timestamp="1600201866732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600135486034" />
+    <state x="433" y="45" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1600201866732" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600204502516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600204502516" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -537,10 +548,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="258" key="git4idea.ui.GitResetDialog/0.0.1366.728@0.0.1366.728" timestamp="1599762204671" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1600011443030">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600196865196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600011443030" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600196865196" />
     <state x="477" y="49" key="svn.repositoryBrowser" timestamp="1599760767033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -554,9 +565,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Process/ContactMeProcess.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Components/Form.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

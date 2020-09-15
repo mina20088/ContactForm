@@ -27,10 +27,10 @@ if(isset($_POST['Submit'])){
         $QueryString .= "&Error3=please Fill Telephone&firstname=".$FullName.'&email='.$Email.'&telephone='.$Telephone.'&message='.$Message;
     }else{
         if(!ValidatePhoneNumber($Telephone)){
-            $QueryString .= "Error3=Please Enter A valid Phone Number,Numbers Only Allowed"."&firstname=".$FullName."&email=".$Email."&message=".$Message;
-            if(!ValidatePhoneNumberLenght($Telephone)){
-                $QueryString .= "Error5=phone Number Length Allowed Between [1-15] Digit"."&firstname=".$FullName."&email=".$Email."&message=".$Message;
-            }
+            $QueryString .= "Error3=Please Enter A valid Phone Number,Numbers Only Allowed"."&firstname=".$FullName."&email=".$Email."&telephone=".$Telephone."&message=".$Message;
+        }
+        if(!ValidatePhoneNumberLenght($Telephone)){
+            $QueryString .= "Error5=phone Number Length Allowed Between [1-15] Digit"."&firstname=".$FullName."&email=".$Email."&telephone=".$Telephone."&message=".$Message;
         }
     }
     if(empty($Message)){

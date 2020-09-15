@@ -10,8 +10,7 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
     $message = $_GET['message'];
 }
 ?>
-
-<?php include "Components/Error.php"?>
+<?php include 'Components/Error.php'?>
 <div class="col-sm-12 col-md-5 col-lg-6">
     <form action="Process/ContactMeProcess.php" method="post">
         <h1 class="FormHeader">Please Fill The Form For Contact:</h1>

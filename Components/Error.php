@@ -1,29 +1,27 @@
 <?php
-$errArray = [];
-if(isset($_GET['Error1'])){
-    array_push($errArray,$_GET['Error1']);
+
+function ErrorArray(){
+    $errArray = [];
+    $Num_Of_Args = func_num_args();
+    $args = func_get_args();
+    for($i = 0; $i < $Num_Of_Args; $i++){
+        if(isset($args[$i]) && $args != null){
+            array_push($errArray,$args[$i]);
+        }
+    }
+    return $errArray;
 }
-if(isset($_GET['Error2'])){
-    array_push($errArray,$_GET['Error2']);
-}
-if(isset($_GET['Error3'])){
-    array_push($errArray,$_GET['Error3']);
-}
-if(isset($_GET['Error4'])){
-    array_push($errArray,$_GET['Error4']);
-}
-if(isset($_GET['Err'])){
-    array_push($errArray,$_GET['Err']);
-}
+
+$ERRArray = ErrorArray($_GET['Error1'],$_GET['Error2'],$_GET['Error3'],$_GET['Error4'],$_GET['Error5'],$_GET['Err']);
 ?>
 <div class="container">
     <div class="row">
         <div class="col-12">
             <ul>
-                <?php if($errArray):?>
-                    <?php foreach ($errArray as $Err):?>
-                        <?php if(isset($Err)):?>
-                            <li class="alert alert-danger"><?php echo $Err?></li>
+                <?php if(isset($errArray)):?>
+                    <?php foreach ($errArray as $Errors):?>
+                        <?php if(isset($Errors)):?>
+                            <li class="alert alert-danger"><?php echo $Errors?></li>
                         <?php endif;?>
                     <?php endforeach;?>
                 <?php endif;?>
