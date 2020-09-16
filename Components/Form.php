@@ -1,7 +1,7 @@
 <?php
 $firstname = "";
 $email = "";
-$telephone = "";
+$telephone ="";
 $message = "";
 if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||isset($_GET['message'])){
     $firstname = $_GET['firstname'];
@@ -34,10 +34,12 @@ if(isset($_GET['firstname'])||isset($_GET['email'])||isset($_GET['telephone'])||
         <div class="input-group">
             <label for="telephone">Telephone</label>
             <br>
-            <input id="hidden" type="hidden" name="phone-full">
+            <input id="hidden" type="hidden" name="full_Phone">
             <input type="text" class="form-control" name="telephone" placeholder="Telephone" id="telephone" value="<?php echo $telephone?>">
             <?php if (isset($_GET['Error3'])):?>
                 <span style="color: red"><?php echo '*'.$_GET['Error3']?></span>
+            <?php elseif (isset($_GET['Error5'])):?>
+                <span style="color: red"><?php echo '*'.$_GET['Error5']?></span>
             <?php endif;?>
         </div>
         <div class="form-group">
