@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
+    <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="@\">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5f942b33-6267-44e5-b44b-93e08a1572bc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5f942b33-6267-44e5-b44b-93e08a1572bc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Form.php" afterDir="false" />
@@ -57,6 +62,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
@@ -103,7 +109,10 @@
       <workItem from="1600108296426" duration="6244000" />
       <workItem from="1600126901060" duration="8610000" />
       <workItem from="1600171550966" duration="8014000" />
-      <workItem from="1600182700791" duration="14943000" />
+      <workItem from="1600182700791" duration="25283000" />
+      <workItem from="1600247338965" duration="629000" />
+      <workItem from="1600260465143" duration="4870000" />
+      <workItem from="1600278788507" duration="3809000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -378,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600189529042</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="@Error.php removed the condation used to push error into array $errArray and added a function ErrorArray to perform this role in one line.&#10;@Form.php added the line to include Error.php file.&#10;@ ContactMeProcess.php added lines to validate the phone number length with query string containes the Error5">
+      <created>1600204783567</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1600204783567</updated>
+    </task>
+    <task id="LOCAL-00041" summary="@Error.php added the lines to getError and push them to the array of error&#10;@Form.php added the line to show span if there is an error5 appers&#10;Created the Connection.php to connnect to the database contactform with the functin ConnectionSuccess to check the sucess of the connection&#10;@ContactMeProcess.php create some enhansament to the querystring to make it readable">
+      <created>1600283462283</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1600283462283</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,8 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added the contact me photo to Header.php and include it to the index.php" />
-    <MESSAGE value="add content to the Photo.php contantme.jbeg &#10;at the Header.php we added the contactmeImg class to style the image&#10;at the Form.php added the header for the form &#10;at index.js we changed the utilsScript: &quot;www/js/utils.js&quot;&#10;at index.php add the link for the goolge fonts" />
     <MESSAGE value="at Form.php changed the col width to be col-md-5&#10;at index.css make the website responsive at width 575.98px" />
     <MESSAGE value="make changes to the index.css to make sure that the website is responsive in all cases" />
     <MESSAGE value="make changes at the index.css to make website responsive at Extra small devices (portrait phones, less than 576px)" />
@@ -433,7 +454,9 @@
     <MESSAGE value="@ContactMeProcess.php added line `        if(!filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;                                              $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;                                          }`&#10; to validate Email" />
     <MESSAGE value="removed the Functions.php" />
     <MESSAGE value="@ Validate.php addw the function&#10;1-ValidateEmail: to validate Email&#10;2-ValidatePhoneNumber : to validate Phone Number&#10;3-ValidatePhoneNumberLenght : to validate the lenght of the phone number&#10;@ ContactMeProcess.php adde&#10;        if(!ValidateString($FullName)) {&#10;            $QueryString .= &quot;Error1=please use string characters only in first name&amp;&quot;.&quot;firstname=&quot;.&quot;&quot;.'&amp;email='.$Email.'&amp;telephone='.$Telephone.'&amp;message='.$Message;&#10;        }&#10;         if(filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;             if(!ValidateEmail($Email)){&#10;                 $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;             }&#10;        if(!ValidatePhoneNumber($Telephone)){&#10;            $QueryString .= &quot;Error3=Please Enter A valid Phone Number,Numbers Only Allowed&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            if(!ValidatePhoneNumberLenght($Telephone)){&#10;                $QueryString .= &quot;Error5=phone Number Length Allowed Between [1-15] Digit&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            }" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ Validate.php addw the function&#10;1-ValidateEmail: to validate Email&#10;2-ValidatePhoneNumber : to validate Phone Number&#10;3-ValidatePhoneNumberLenght : to validate the lenght of the phone number&#10;@ ContactMeProcess.php adde&#10;        if(!ValidateString($FullName)) {&#10;            $QueryString .= &quot;Error1=please use string characters only in first name&amp;&quot;.&quot;firstname=&quot;.&quot;&quot;.'&amp;email='.$Email.'&amp;telephone='.$Telephone.'&amp;message='.$Message;&#10;        }&#10;         if(filter_var($Email,FILTER_VALIDATE_EMAIL)){&#10;             if(!ValidateEmail($Email)){&#10;                 $QueryString .= &quot;Error2=Please Enter A Valid Email&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;telephone=&quot;.$Telephone.&quot;&amp;message=&quot;.$Message;&#10;             }&#10;        if(!ValidatePhoneNumber($Telephone)){&#10;            $QueryString .= &quot;Error3=Please Enter A valid Phone Number,Numbers Only Allowed&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            if(!ValidatePhoneNumberLenght($Telephone)){&#10;                $QueryString .= &quot;Error5=phone Number Length Allowed Between [1-15] Digit&quot;.&quot;&amp;firstname=&quot;.$FullName.&quot;&amp;email=&quot;.$Email.&quot;&amp;message=&quot;.$Message;&#10;            }" />
+    <MESSAGE value="@Error.php removed the condation used to push error into array $errArray and added a function ErrorArray to perform this role in one line.&#10;@Form.php added the line to include Error.php file.&#10;@ ContactMeProcess.php added lines to validate the phone number length with query string containes the Error5" />
+    <MESSAGE value="@Error.php added the lines to getError and push them to the array of error&#10;@Form.php added the line to show span if there is an error5 appers&#10;Created the Connection.php to connnect to the database contactform with the functin ConnectionSuccess to check the sucess of the connection&#10;@ContactMeProcess.php create some enhansament to the querystring to make it readable" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Error.php added the lines to getError and push them to the array of error&#10;@Form.php added the line to show span if there is an error5 appers&#10;Created the Connection.php to connnect to the database contactform with the functin ConnectionSuccess to check the sucess of the connection&#10;@ContactMeProcess.php create some enhansament to the querystring to make it readable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -444,18 +467,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1599860421366" />
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600189526495">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600265912768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600189526495" />
-    <state width="411" height="466" key="DebuggerActiveHint" timestamp="1600203402604">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600265912768" />
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600283458908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="411" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600203402604" />
-    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog" timestamp="1600189513808">
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600283458908" />
+    <state width="411" height="466" key="DebuggerActiveHint" timestamp="1600213643482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="109" y="17" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600189513808" />
+    <state width="411" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600213643482" />
+    <state x="7" y="14" width="1104" height="620" key="DiffContextDialog" timestamp="1600283446887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="7" y="14" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600283446887" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -468,62 +495,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599761292846" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1600203589526">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1600203589525">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589525" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1600203589524">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1600214111026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589524" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1600203589525">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600214111026" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589525" />
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1600203589526">
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
-    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1600203589526">
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
-    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1600203589526">
+    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
-    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1600203589526">
+    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589526" />
-    <state width="1323" height="212" key="GridCell.Tab.2.bottom" timestamp="1600203589527">
+    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.2.bottom" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
-    <state width="1323" height="212" key="GridCell.Tab.2.center" timestamp="1600203589527">
+    <state width="1323" height="212" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.2.center" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
-    <state width="1323" height="212" key="GridCell.Tab.2.left" timestamp="1600203589527">
+    <state width="1323" height="212" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.2.left" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
-    <state width="1323" height="212" key="GridCell.Tab.2.right" timestamp="1600203589527">
+    <state width="1323" height="212" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="1323" height="212" key="GridCell.Tab.2.right" timestamp="1600214111041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1600203589527" />
+    <state width="1323" height="212" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1600214111041" />
+    <state width="211" height="457" key="HiddenNamespacesPopup" timestamp="1600265976298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="211" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1600265976298" />
     <state x="462" y="86" key="NewPhpClassDialog" timestamp="1600115244725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1600115244725" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1600132270737">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1600266023147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600132270737" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600266023147" />
     <state x="482" y="84" key="RollbackChangesDialog" timestamp="1599762273470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -536,10 +567,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="45" key="VCS.ChangeListViewerDialog/0.0.1366.728@0.0.1366.728" timestamp="1600201866732" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600204502516">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600283466173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600204502516" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600283466173" />
     <state x="473" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599762324788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -560,16 +591,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="564" y="473" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1599862737671" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Components/Form.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
