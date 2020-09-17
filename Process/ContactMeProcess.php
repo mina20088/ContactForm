@@ -1,6 +1,7 @@
 <?php
 include "../Global Functions/Sanitize.php";
 include "../Global Functions/Validate.php";
+include "../Global Functions/Mail.php";
 if(isset($_POST['Submit'])) {
     $FullName = SanitizeString([$_POST['FullName']], [FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_STRING], null);
     $Email = SanitizeString([$_POST['Email']], [FILTER_SANITIZE_EMAIL], null);
@@ -82,7 +83,32 @@ if(isset($_POST['Submit'])) {
     if ($QueryString) {
         header("location:../index.php?" . $QueryString);
     } else {
-        header("location:../Components/Confirmation.php?Message=The Data Has Been Added To Our Database Successfully And Answer Will Be Sent Soon");
+        include "../Database/Connection.php";
+        if(ConnectionSuccess()){
+            if(isset($Connection)){
+                $InsertInfo = "insert into user(Full_Name,Email,Telephone,Message) values (?,?,?,?)";
+                if($Statment = $Connection->prepare($InsertInfo)){
+                    if($Statment->bind_param('ssss',$FullName,$Email,$Telephone,$Message)){
+                        $Statment->execute();
+                        $Statment->close();
+                    }
+                }
+                $SelectInfo = "select Ticket_ID,Time_Stored from user ";
+                if($Statment = $Connection->query($SelectInfo)){
+                    while($obj = $Statment->fetch_object()){
+                        $QueryString.=
+                            "Message=The Data Has Been Added To Our Database Successfully And Answer Will Be Sent Soon".
+                            "&Ticket_ID=".$obj->Ticket_ID.
+                            "&Time_Stored=".$obj->Time_Stored;
+                    }
+                }
+                $Connection->close();
+                if($QueryString){
+                    SendEmail($Email,$FullName);
+                    header("location:../Confirmation.php?".$QueryString);
+                }
+            }
+        }
     }
 }
 

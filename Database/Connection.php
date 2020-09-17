@@ -6,7 +6,7 @@ $Database = "contactform";
 $Connection = new mysqli($Host,$User,$Password,$Database);
 
 if($Connection->connect_error){
-    echo "Error:Connection Cant be Stablished". PHP_EOL;
+    echo "Error:Connection Cant be Established". PHP_EOL;
     echo "Debugging errno: " . $Connection->connect_errno . PHP_EOL;
     echo "Debugging error: " . $Connection->connect_error . PHP_EOL;
 }else{

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="www/CSS/index.css">
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,500&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Index</title>
 </head>
 <body>
 </body>
