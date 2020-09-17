@@ -1,13 +1,21 @@
+
 <?php
+ include_once "Global/Mail.php";
 $Message = "";
 $Ticket_ID = "";
 $Time_Stored = "";
-     if(isset($_GET['Message'])||isset($_GET['Ticket_ID'])||isset($_GET['Time_Stored'])){
+$FullName = "";
+$Email = "";
+     if(isset($_GET['Message'])||isset($_GET['Ticket_ID'])||isset($_GET['Time_Stored'])||isset($_GET['FullName'])||isset($_GET['Email'])){
          $Message = $_GET['Message'];
          $Ticket_ID = $_GET['Ticket_ID'];
+         $FullName = $_GET['FullName'];
+         $Email = $_GET['Email'];
          $Time_Stored = $_GET['Time_Stored'];
+         SendEmail($Email,$FullName,$Ticket_ID,$Time_Stored);
      }
 ?>
+
 <html>
 <head>
     <meta charset="UTF-8">
