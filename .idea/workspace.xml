@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8079b3e-6210-4d00-a50a-890dbd7fe2d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Global/Validate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Process/ContactMeProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/Process/ContactMeProcess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
       <workItem from="1600436091541" duration="5961000" />
       <workItem from="1600470409654" duration="8400000" />
       <workItem from="1600514972773" duration="1675000" />
-      <workItem from="1600543231161" duration="1119000" />
+      <workItem from="1600543231161" duration="2482000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1599761957716</created>
@@ -432,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600365485340</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="@Mail.php changed the credential of the mail server to awardspace server.&#10;@ContactMeProcess make the validation function in function contains the filter validation and the validation using regex">
+      <created>1600545181126</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1600545181126</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="make changes at the index.css to make website responsive &#10;// Extra small devices (portrait phones, less than 576px)&#10;// No media query for `xs` since this is the default in Bootstrap&#10;&#10;// Small devices (landscape phones, 576px and up)&#10;@media (min-width: 576px) { ... }&#10;&#10;// Medium devices (tablets, 768px and up)&#10;@media (min-width: 768px) { ... }&#10;&#10;// Large devices (desktops, 992px and up)&#10;@media (min-width: 992px) { ... }&#10;&#10;// Extra large devices (large desktops, 1200px and up)&#10;@media (min-width: 1200px) { ... }" />
     <MESSAGE value="Create the ContactMeProcess.php file to Process The Get And Post HTTP Request of the form" />
     <MESSAGE value="@Form.php Added this line to process the form at the action &quot;Process/ContactMeProcess.php&quot;" />
     <MESSAGE value="@ContactMeProcess.php  added lines to get the post requests and values in the fields" />
@@ -487,7 +490,8 @@
     <MESSAGE value="@\" />
     <MESSAGE value="Added the phpmailer class to be able to send confirmation emails to customers that that confirm that dataadded to database Successfully" />
     <MESSAGE value="@Mail.php added to the subject of the mail the ticket_ID and the Time that this Data Created&#10;@ContactMeProcess.php added the full name and the email to the query string in case to succefull addation of the data to the database&#10;@Confirmation.php added include the mail.php file and add get the full name and the email &#10;send email of confirmation to the user" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Mail.php added to the subject of the mail the ticket_ID and the Time that this Data Created&#10;@ContactMeProcess.php added the full name and the email to the query string in case to succefull addation of the data to the database&#10;@Confirmation.php added include the mail.php file and add get the full name and the email &#10;send email of confirmation to the user" />
+    <MESSAGE value="@Mail.php changed the credential of the mail server to awardspace server.&#10;@ContactMeProcess make the validation function in function contains the filter validation and the validation using regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Mail.php changed the credential of the mail server to awardspace server.&#10;@ContactMeProcess make the validation function in function contains the filter validation and the validation using regex" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1599763202992">
@@ -506,18 +510,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600265912768" />
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600365482528">
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2" timestamp="1600545177281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600365482528" />
+    <state x="210" y="0" width="1041" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600545177281" />
     <state width="411" height="466" key="DebuggerActiveHint" timestamp="1600213643482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="411" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1600213643482" />
-    <state x="7" y="14" width="1104" height="620" key="DiffContextDialog" timestamp="1600365465539">
+    <state x="177" y="34" width="1104" height="620" key="DiffContextDialog" timestamp="1600545168346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="7" y="14" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600365465539" />
+    <state x="177" y="34" width="1104" height="620" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1600545168346" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599846492423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -108,4 +108,6 @@ if(isset($_POST['Submit'])) {
             }
         }
     }
+}else if(isset($_POST['Cancel'])){
+    header("location:../index.php");
 }
