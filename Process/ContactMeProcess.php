@@ -5,10 +5,8 @@ include "../Database/Connection.php";
 if(isset($_POST['Submit'])) {
     $FullName = SanitizeString([$_POST['FullName']], [FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_STRING], null);
     $Email = SanitizeString([$_POST['Email']], [FILTER_SANITIZE_EMAIL], null);
-    if(settype($_POST['full_Phone'],'string')){
-        $Telephone = $_POST['full_Phone'];
-    }
-    $Telephone1 = $_POST['telephone'];
+    $Telephone1= $_POST['full_Phone'];
+    $Telephone = $_POST['telephone'];
     $Message = SanitizeString([$_POST['message']], [FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_STRING], null);
     $QueryString = "";
     if (empty($FullName)) {
@@ -24,7 +22,7 @@ if(isset($_POST['Submit'])) {
                 "Error1=please use string characters only in first name" .
                 "&firstname=" .
                 '&email=' . $Email .
-                '&telephone=' . $Telephone1 .
+                '&telephone=' . $Telephone .
                 '&message=' . $Message;
         }
     }
@@ -33,18 +31,17 @@ if(isset($_POST['Submit'])) {
             "&Error2=please Fill Email" .
             "&firstname=" . $FullName .
             '&email=' . $Email .
-            '&telephone=' . $Telephone1 .
+            '&telephone=' . $Telephone .
             '&message=' . $Message;
     } else {
-        if (filter_var($Email, FILTER_VALIDATE_EMAIL)) {
-            if (!ValidateEmail($Email)) {
-                $QueryString .=
+        if (!ValidateEmail($Email)) {
+                 $QueryString .=
                     "&Error2=Please Enter A Valid Email" .
                     "&firstname=" . $FullName .
                     "&email=" . $Email .
-                    "&telephone=" . $Telephone1 .
+                    "&telephone=" . $Telephone .
                     "&message=" . $Message;
-            }
+            
         }
     }
     if (empty($Telephone)) {
@@ -52,23 +49,23 @@ if(isset($_POST['Submit'])) {
             "&Error3=please Fill Telephone" .
             "&firstname=" . $FullName .
             '&email=' . $Email .
-            '&telephone=' . $Telephone1 .
+            '&telephone=' . $Telephone .
             '&message=' . $Message;
     } else {
-        if (!ValidatePhoneNumber($Telephone)) {
+        if (!ValidatePhoneNumber(intval($Telephone))) {
             $QueryString .=
                 "&Error3=Please Enter A valid Phone Number,Numbers Only Allowed" .
                 "&firstname=" . $FullName .
                 "&email=" . $Email .
-                "&telephone=" . $Telephone1 .
+                "&telephone=" . $Telephone .
                 "&message=" . $Message;
         }
-        if (!ValidatePhoneNumberLenght($Telephone)) {
+        if (!ValidatePhoneNumberLenght(strval($Telephone))) {
             $QueryString .=
                 "&Error5=phone Number Length Allowed Between [1-15] Digit" .
                 "&firstname=" . $FullName .
                 "&email=" . $Email .
-                "&telephone=" . $Telephone1 .
+                "&telephone=" . $Telephone .
                 "&message=" . $Message;
         }
     }
@@ -77,18 +74,18 @@ if(isset($_POST['Submit'])) {
             "&Error4=please Fill Message" .
             "&firstname=" . $FullName .
             '&email=' . $Email .
-            '&telephone='. $Telephone1 .
+            '&telephone='. $Telephone .
             '&message=' . $Message;
     }
     if ($QueryString) {
         header("location:../index.php?" . $QueryString);
     } else {
 
-        if(ConnectionSuccess()){
+        if(true){
             if(isset($Connection)){
                 $InsertInfo = "insert into user(Full_Name,Email,Telephone,Message) values (?,?,?,?)";
                 if($Statment = $Connection->prepare($InsertInfo)){
-                    if($Statment->bind_param('ssss',$FullName,$Email,$Telephone,$Message)){
+                    if($Statment->bind_param('ssss',$FullName,$Email,$Telephone1,$Message)){
                         $Statment->execute();
                         $Statment->close();
                     }
@@ -112,4 +109,3 @@ if(isset($_POST['Submit'])) {
         }
     }
 }
-

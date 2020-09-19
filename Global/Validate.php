@@ -11,8 +11,12 @@ function ValidateString($String){
 /*validate the emil address according to the RFCC5322 email standard*/
 function ValidateEmail($Email){
     $Status = false;
-    if(preg_match_all("/[a-z0-9!#$%&'*+\/=?^_‘{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_‘{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/",$Email,$matches)){
-        $Status = true;
+    if(filter_var($Email,FILTER_VALIDATE_EMAIL)){
+        if(preg_match_all("/[a-z0-9!#$%&'*+\/=?^_‘{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_‘{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/",$Email,$matches)) {
+            $Status = true;
+        }else{
+            $Status = false;
+        }
     }else{
         $Status = false;
     }

@@ -11,15 +11,15 @@ function SendEmail($ReceiverEmail,$Receiver_Name,$Ticket_ID,$Time){
         /*Server Setting*/
 //        $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp.mboxhosting.com';
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
-        $mail->Username = 'minaremon1986@gmail.com';
-        $mail->Password = 'Hecaro1986/*';
-        $mail->setFrom('minaremon1986@gmail.com', 'Mina Remon');
+        $mail->Username = 'minaremon@minaremon.com';
+        $mail->Password = 'Lolo1986***';
+        $mail->setFrom('minaremon@minaremon.com', 'Mina Remon');
         $mail->addAddress($ReceiverEmail,$Receiver_Name);
-        $mail->addReplyTo('minaremon1986@gmail.com', 'Mina Remon');
+        $mail->addReplyTo('info@minaremon.com', 'info');
         $mail->isHTML(true);
         $mail->Subject = "Confirmation";
         $mail->Body = "<h1>Confirmation Email</h1>
@@ -28,7 +28,7 @@ function SendEmail($ReceiverEmail,$Receiver_Name,$Ticket_ID,$Time){
                         <p>Ticket_ID : $Ticket_ID</p>
                         <p>Sent At: $Time</p>";
         $mail->send();
-        echo 'Message has been sent';
+//        echo 'Message has been sent';
     }
     catch (Exception $e){
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
